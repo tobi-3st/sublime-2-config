@@ -1,7 +1,22 @@
 [
-    {
+    {   "caption": "Git: Init",
+        "command": "git_init"
+    }
+    ,{
         "caption": "Git: Blame",
         "command": "git_blame"
+    }
+    ,{
+        "caption": "Git: New Tag",
+        "command": "git_new_tag"
+    }
+    ,{
+        "caption": "Git: Show Tags",
+        "command": "git_show_tags"
+    }
+    ,{
+        "caption": "Git: Push Tags",
+        "command": "git_push_tags"
     }
     ,{
         "caption": "Git: Log Current File",
@@ -32,12 +47,28 @@
         "command": "git_diff_commit"
     }
     ,{
-        "caption": "Git: Diff Tool",
+        "caption": "Git: Diff Tool Current File",
         "command": "git_diff_tool"
+    }
+    ,{
+        "caption": "Git: Diff Tool All",
+        "command": "git_diff_tool_all"
+    }
+    ,{
+        "caption": "Git: Diff Tool Current File Staged",
+        "command": "git_diff_tool_commit"
+    }
+    ,{
+        "caption": "Git: Diff Tool Staged",
+        "command": "git_diff_tool_commit_all"
     }
     ,{
         "caption": "Git: Commit",
         "command": "git_commit"
+    }
+    ,{
+        "caption": "Git: Amend Commit",
+        "command": "git_commit_amend"
     }
     ,{
         "caption": "Git: Quick Commit",
@@ -48,6 +79,10 @@
         "command": "git_status"
     }
     ,{
+        "caption": "Git: Open Modified Files",
+        "command": "git_open_modified_files"
+    }
+    ,{
         "caption": "Git: New Branch",
         "command": "git_new_branch"
     }
@@ -56,8 +91,16 @@
         "command": "git_branch"
     }
     ,{
+        "caption": "Git: Track Remote Branch",
+        "command": "git_track_remote_branch"
+    }
+    ,{
         "caption": "Git: Merge Branch",
         "command": "git_merge"
+    }
+    ,{
+        "caption": "Git: Delete Branch",
+        "command": "git_delete_branch"
     }
     ,{
         "caption": "Git: Stash Changes",
@@ -66,6 +109,14 @@
     ,{
         "caption": "Git: Stash Pop",
         "command": "git_stash_pop"
+    }
+    ,{
+        "caption": "Git: Stash Apply",
+        "command": "git_stash_apply"
+    }
+    ,{
+        "caption": "Git: Stash Drop",
+        "command": "git_stash_drop"
     }
     ,{
         "caption": "Git: Add Current File",
@@ -80,8 +131,16 @@
         "command": "git_checkout"
     }
     ,{
+        "caption": "Git: Fetch",
+        "command": "git_fetch"
+    }
+    ,{
         "caption": "Git: Pull",
         "command": "git_pull"
+    }
+    ,{
+        "caption": "Git: Pull Using Rebase",
+        "command": "git_pull_rebase"
     }
     ,{
         "caption": "Git: Pull Current Branch",
@@ -108,13 +167,45 @@
         "command": "git_custom"
     }
     ,{
+        "caption": "Git Flow: Feature Start",
+        "command": "git_flow_feature_start"
+    }
+    ,{
+        "caption": "Git Flow: Feature Finish",
+        "command": "git_flow_feature_finish"
+    }
+    ,{
+        "caption": "Git Flow: Release Start",
+        "command": "git_flow_release_start"
+    }
+    ,{
+        "caption": "Git Flow: Release Finish",
+        "command": "git_flow_release_finish"
+    }
+    ,{
+        "caption": "Git Flow: Hotfix Start",
+        "command": "git_flow_hotfix_start"
+    }
+    ,{
+        "caption": "Git Flow: Hotfix Finish",
+        "command": "git_flow_hotfix_finish"
+    }
+    ,{
         "caption": "Git: Open...",
         "command": "git_open_file"
     }
-	,{
-		"caption": "Git: Reset (unstage) Current File",
-		"command": "git_reset_head"
-	}
+    ,{
+        "caption": "Git: Reset (unstage) Current File",
+        "command": "git_reset_head"
+    }
+    ,{
+        "caption": "Git: Reset (unstage) All",
+        "command": "git_reset_head_all"
+    }
+    ,{
+        "caption": "Git: Reset (hard) HEAD",
+        "command": "git_reset_hard_head"
+    }
     ,{
         "caption": "Git: Add Selected Hunk",
         "command": "git_add_selected_hunk"
@@ -128,7 +219,27 @@
         "command": "git_gui"
     }
     ,{
+        "caption": "Git: Gitk This File",
+        "command": "git_gitk_this_file"
+    }
+    ,{
         "caption": "Git: Gitk",
         "command": "git_gitk"
+    }
+    ,{
+        "caption": "Git: Gitk All",
+        "command": "git_gitk_all"
+    }
+    ,{
+        "caption": "Git: Commit history",
+        "command": "git_commit_history"
+    }
+    ,{
+        "caption": "Git: Open Config File",
+        "command": "git_open_config_file"
+    }
+    ,{
+        "caption": "Git: Open Config Url",
+        "command": "git_open_config_url", "args": { "url_param": "remote.origin.url" }
     }
 ]

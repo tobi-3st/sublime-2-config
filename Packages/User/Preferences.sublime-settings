@@ -1,16 +1,46 @@
 {
 	"caret_style": "wide",
-	"color_scheme": "Packages/Django (Smoothy).tmTheme",
-	"font_face": "Monaco",
-	"font_size": 13.0,
+	"color_scheme": "Packages/Oceanic.tmTheme",
+	"color_scope_name": "text",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_face": "SourceCodePro-Light",
+	"font_size": 11.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Rails Related Files",		
+		"Color Highlighter",
+		"sublime-jslint",
+		"ERB Snippets",		
+		"objc .strings syntax language",
+		"ShowEncoding",
+		"Markdown Preview",
+		"List stylesheet variables",
+		"Todo",
+		"WordHighlight",
+		"INI",
+		"Git",
+		"Drupal Project Autocomplete"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active",
+		"draw_stack"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"margin": 0,
-	"show_tab_close_buttons": true,
+	"soda_classic_tabs": false,
 	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
